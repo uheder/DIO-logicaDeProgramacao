@@ -15,17 +15,17 @@ let nivel
 
 if (exp > 10001){
     nivel = 'Radiante';
-} else if (exp > 9001) {
+} else if (exp >= 9001) {
     nivel = 'Imortal';
-} else if (exp > 8001) {
+} else if (exp >= 8001) {
     nivel = 'Ascendente';
-} else if (exp > 7001) {
+} else if (exp >= 7001) {
     nivel = 'Platina';
-} else if (exp > 5001) {
+} else if (exp >= 5001) {
     nivel = 'Ouro';
-} else if (exp > 2001) {
+} else if (exp >= 2001) {
     nivel = 'Prata';
-} else if (exp > 1001) {
+} else if (exp >= 1001) {
     nivel = 'Bronze';
 } else {
     nivel = 'Ferro';
