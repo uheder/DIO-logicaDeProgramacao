@@ -13,7 +13,7 @@ let nome  = 'BigHero';
 let exp = 8010;
 let nivel
 
-if (exp > 10001){
+if (exp >= 10001){
     nivel = 'Radiante';
 } else if (exp >= 9001) {
     nivel = 'Imortal';
